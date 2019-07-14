@@ -1,0 +1,218 @@
+﻿@font-face {
+    font-family: Robotoo;
+    src: url(./font/Roboto-Black.ttf) format('truetype'),
+    url(./font/Roboto-BlackItalic.ttf) format('truetype'),
+    url(./font/Roboto-Bold.ttf) format('truetype'),
+    url(./font/Roboto-BoldItalic.ttf) format('truetype'),
+    url(./font/Roboto-Light.ttf) format('truetype'),
+    url(./font/Roboto-LightItalic.ttf) format('truetype'),
+    url(./font/Roboto-Medium.ttf) format('truetype'),
+    url(./font/Roboto-MediumItalic.ttf) format('truetype'),
+    url(./font/Roboto-Regular.ttf) format('truetype'),
+    url(./font/Roboto-RegularItalic.ttf) format('truetype'),
+    url(./font/Roboto-Thin.ttf) format('truetype'),
+    url(./font/Roboto-ThinItalic.ttf) format('truetype'),
+   
+  }
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Robotoo;
+    
+}
+
+.all {
+    position:relative;
+}
+.bgl {
+    width: 1280px;
+    height: 800px;
+    background-color: #FFEDF7;
+}
+
+.bgr {
+    width: 450px;
+    height: 800px;
+    background-color: #003164;
+    position:absolute;
+    top:0;
+    left:830px;
+}
+
+.input {
+    border: hidden;height:56px;width:445px;
+    margin:48px 0px 0px 85px;
+}
+::placeholder {
+    padding: 19px 266px 18px 16px;
+    font-size: 16px;
+    color: #FF4384;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+.ad {
+    
+    width:24px;height:24px;
+    margin-left: 490px;
+    margin-top: -43px;
+    color: #FF4384;
+    font-weight:900;
+    font-size:28px;
+}
+.the {
+    width: 348px;
+    height: 28px;
+    margin: 163px 0 0 16px;
+    font-size: 24px;
+    color: #003164;
+    letter-spacing: -1px;
+    display: inline-block;
+    vertical-align: top;
+}
+.round {
+    margin: 163px 0 0 85px;
+    border: 2px solid #003164;
+    background-color: #FFEDF7;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.time {
+    width: 454px;
+    height: 206px;
+    margin-top: -10px;
+    margin-left: 80px;
+    font-size: 176px;
+    font-weight: 900;
+    color: #FF4384;
+}
+.texts {
+    width: 445px;
+    height: 114.5px;
+    margin-top: 107px;
+    margin-left: 85px;
+    font-size: 16px;
+    color: #003164;
+    letter-spacing: -1px;
+    font-weight: 700;
+    line-height: 30px;
+    
+}
+
+.text {
+    margin:5px 4px 5px 4px;
+    width: 251px;
+    height: 32px;
+    display: inline-block;
+}
+.round2 {
+    border: 2px solid #003164;
+    background-color: #FFEDF7;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align:text-bottom;
+}
+.play{
+    margin-left: 143px;
+    background-image: url(black-play_circle_outline-24px.svg);
+    fill: #003164;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.more {
+    width: 44px;
+    height: 19px;
+    margin: 24px 0 48px 486px;
+    font-size: 16px;
+    color: #FF4384;
+    font-weight: 700;
+}
+.j {
+    margin-left: 329px;
+    vertical-align: middle;
+    
+}
+.logo1 {
+    margin-top: 48px;
+    background-image: url(baseline-format_list_bulleted-24px.svg);
+    fill:#FFFFFF;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.logo2 {
+    margin-top: 48px;
+    background-image: url(black-play_circle_outline-24px.svg);
+    fill: #FFFFFF;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+   
+}
+.logo3 {
+    margin-top: 48px;
+    background-image: url(assessmentx.svg);
+    fill: #FFFFFF;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.enlogo {
+    margin-top: 335px;
+    margin-right: 85px;
+    font-size: 24px;
+    color: #FFFFFF; 
+    font-weight: 900;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+.round3 {
+    position:absolute;
+    top:130px;left:560px;
+    border: 4px solid #FF4384;
+    background-color:transparent;
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+}
+.round4 {
+    margin:15px 0 0 15px;
+    border: 0px solid #FF4384;
+    background-color: #FF4384;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.playlogo {
+    position:absolute;
+    top:222px;left: 222px;
+    background-image: url(qqqq-play_circle_filled-24px.svg);
+    fill: #FFFFFF;
+    background-size: cover;
+    width: 101px;
+    height: 101px;
+}
+.zlogo {
+    position: absolute;
+    border: 3px solid #FF4384;
+    width: 18px;
+    height: 18px;
+    margin: 294px 0 0 309px;
+    background-color: #ffffff;
+    background-size: cover;
+}
